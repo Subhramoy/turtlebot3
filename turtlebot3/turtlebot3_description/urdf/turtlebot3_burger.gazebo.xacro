@@ -19,6 +19,9 @@
       <wheelDiameter>0.066</wheelDiameter>
       <wheelAcceleration>1</wheelAcceleration>
       <wheelTorque>10</wheelTorque>
+      <rosDebugLevel>na</rosDebugLevel>
+      <odometrySource>world</odometrySource>
+      <publishTf>1</publishTf>
     </plugin>
   </gazebo>
 
