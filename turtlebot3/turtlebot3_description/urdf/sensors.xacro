@@ -7,7 +7,7 @@
             <link name="camera_link">
                 <visual>
                     <geometry>
-                    <mesh filename="package://jetdog_description/meshes/sensors/rpi_camera_v2.dae"/>
+                    <mesh filename="package://turtlebot3_description/meshes/sensors/rpi_camera_v2.dae"/>
                     </geometry>
                     <material name="camera_link_material">
                     <color rgba="0.8 0.8 0.8 1.0"/>
@@ -15,7 +15,7 @@
                 </visual>
                 <collision>
                     <geometry>
-                    <mesh filename="package://jetdog_description/meshes/sensors/rpi_camera_v2.stl"/>
+                    <mesh filename="package://turtlebot3_description/meshes/sensors/rpi_camera_v2.stl"/>
                     </geometry>
                 </collision>
                 <inertial>
@@ -30,7 +30,7 @@
             <link name="camera_link">
                 <visual>
                     <geometry>
-                    <mesh filename="package://jetdog_description/meshes/sensors/rpi_camera_v2_short.dae"/>
+                    <mesh filename="package://turtlebot3_description/meshes/sensors/rpi_camera_v2_short.dae"/>
                     </geometry>
                     <material name="camera_link_material">
                     <color rgba="0.8 0.8 0.8 1.0"/>
@@ -38,7 +38,7 @@
                 </visual>
                 <collision>
                     <geometry>
-                    <mesh filename="package://jetdog_description/meshes/sensors/rpi_camera_v2_short.stl"/>
+                    <mesh filename="package://turtlebot3_description/meshes/sensors/rpi_camera_v2_short.stl"/>
                     </geometry>
                 </collision>
                 <inertial>
