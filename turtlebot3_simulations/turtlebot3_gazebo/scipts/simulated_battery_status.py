@@ -51,10 +51,10 @@ class SimBateryStatusPublisher(object):
 
     def __init__(self):
 
-        self.pub = rospy.Publisher('battery_state', BatteryState, queue_size=10)
+        self.pub = rospy.Publisher('/battery_state', BatteryState, queue_size=10)
 
         self.battery_input_value = 0.0
-        rospy.Subscriber("battery_input", Float32, self.battery_input_callback)
+        rospy.Subscriber("/battery_input", Float32, self.battery_input_callback)
         self.init_battery()
     
     def init_battery(self):
@@ -106,7 +106,7 @@ class SimBateryStatusPublisher(object):
 
         ### And these ar ethe only values that we will simulate:
         self.INIT_BATTERY_PERC = 100.0
-        self.DELTA_BATTERY_CLICK = 20.0#0.01
+        self.DELTA_BATTERY_CLICK = 1.0#0.01
         self.bat_state_msg.percentage = self.INIT_BATTERY_PERC
         
         # If < 0 is discharging, > 0 charging, 0 charged

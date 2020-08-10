@@ -1,0 +1,5 @@
+<launch>
+    <node name="sim_batery_turtlebot3" pkg="turtlebot3_gazebo" type="simulated_battery_status.py"
+        respawn="false" output="screen">
+    </node>
+</launch>
