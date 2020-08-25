@@ -105,8 +105,9 @@ class SimBateryStatusPublisher(object):
         self.bat_state_msg.serial_number = "01"
 
         ### And these ar ethe only values that we will simulate:
-        self.INIT_BATTERY_PERC = 100.0
-        self.DELTA_BATTERY_CLICK = 1.0#0.01
+        # In real turtlebot3, 2.0 is titaly charged, 1.0 is totally discharged
+        self.INIT_BATTERY_PERC = 2.0
+        self.DELTA_BATTERY_CLICK = 0.0001
         self.bat_state_msg.percentage = self.INIT_BATTERY_PERC
         
         # If < 0 is discharging, > 0 charging, 0 charged
@@ -211,6 +212,6 @@ class SimBateryStatusPublisher(object):
 
 
 if __name__ == '__main__':
-    rospy.init_node('simulated_battery_status_turtlebot3', anonymous=True, log_level=rospy.DEBUG)
+    rospy.init_node('simulated_battery_status_turtlebot3', anonymous=True, log_level=rospy.WARN)
     sim_bat_obj = SimBateryStatusPublisher()
     sim_bat_obj.start_loop()
