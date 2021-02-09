@@ -513,7 +513,7 @@
         <pose>0 0 -0.3 0 0 -1.5708</pose>
         <geometry>
           <mesh>
-            <uri>model://turtlebot3/meshes/wall.dae</uri>
+            <uri>model://turtlebot3/meshes/wall.stl</uri>
             <scale>0.25 0.25 0.25</scale>
           </mesh>
         </geometry>
@@ -533,7 +533,7 @@
         <pose>0 0 -0.3 0 0 -1.5708</pose>
         <geometry>
           <mesh>
-            <uri>model://turtlebot3/meshes/wall.dae</uri>
+            <uri>model://turtlebot3/meshes/wall.stl</uri>
             <scale>0.25 0.25 0.25</scale>
           </mesh>
         </geometry>
