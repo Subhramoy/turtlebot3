@@ -15,6 +15,7 @@ Keras == 2.3.1
 ```
 ### Installing
 
+```
 $ sudo apt-get update
 $ sudo apt-get upgrade
 $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_kinetic.sh && chmod 755 ./install_ros_kinetic.sh && bash ./install_ros_kinetic.sh
@@ -24,6 +25,7 @@ $ cd ~/catkin_ws/src/
 $ git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 $ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 $ cd ~/catkin_ws && catkin_make
+```
 
 ## Git repo for noisy laser sensor integration:
 
