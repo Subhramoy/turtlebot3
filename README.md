@@ -1,4 +1,4 @@
-# Project Title: Mapless Collision Avoidance of Turtlebot3 Using DDPG and Prioritized Experience Replay with Noisy Laser Sensor in Robots
+# Project Title: Mapless Collision Avoidance of Turtlebot3 Using DDPG and Prioritized Experience Replay with Camera and Noisy Laser Sensor in Robots
 A preliminary version of this code was developed by the authors of [Voronoi-Based Multi-Robot Autonomous Exploration in Unknown Environments via Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/9244647) published in IEEE Transactions on Vehicular Technology.
 
 ## Getting Started
